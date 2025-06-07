@@ -8,6 +8,7 @@
       "problemMatcher": "$func-powershell-watch",
       "isBackground": true
     },
+
     {
       "type": "func",
       "command": "extensions install",
