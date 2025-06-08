@@ -6,7 +6,22 @@
       "label": "func: host start",
       "command": "host start",
       "problemMatcher": "$func-powershell-watch",
+      "options": {
+        "cwd": "${workspaceFolder}/function"
+      },
       "isBackground": true
+    },
+    {
+      "type": "func",
+      "command": "extensions install",
+      "problemMatcher": [],
+      "label": "func: extensions install"
+    },
+    {
+      "type": "func",
+      "command": "extensions install",
+      "problemMatcher": [],
+      "label": "func: extensions install"
     },
     {
       "type": "func",

@@ -23,7 +23,9 @@
 				"modules":[
 					"PowerShellGet",
 					"PSReadLine",
-					 "microsoft.graph"
+					 "microsoft.graph",
+					"Az.Accounts",
+					"PnP.PowerShell"
 				]
 			},
 			"ghcr.io/devcontainers/features/azure-cli:1": {
@@ -43,7 +45,7 @@
 	},
 
 //	"postCreateCommand": "sudo chsh vscode -s \"$(which pwsh)\" && /workspaces/costfunctions/.devcontainer/setupdotnetencoretools.sh",
-	"postCreateCommand": "sudo chsh vscode -s \"$(which pwsh)\" ",
+	"postCreateCommand": "./.devcontainer/install-worker.sh && sudo chsh vscode -s \"$(which pwsh)\" ",
 	
 
 	// Configure tool-specific properties.
@@ -74,5 +76,5 @@
 	// "forwardPorts": [],
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	//, "remoteUser": "root"
 }
