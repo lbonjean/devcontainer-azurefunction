@@ -15,3 +15,6 @@ This function shows the used version.
 .\function: put everything that needs to be published to the function app later on here  
 "azureFunctions.deploySubpath": "function" must be set in settings.json
 
+## Authentication
+### pnp.powershell
+1. register an app with Register-PnPEntraIDAppForInteractiveLogin
