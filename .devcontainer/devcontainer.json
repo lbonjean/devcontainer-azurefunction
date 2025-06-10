@@ -21,10 +21,10 @@
 				"version":"7.4.7",
 				"modules":[
 					"PowerShellGet",
-					"PSReadLine",
-					 "microsoft.graph",
-					"Az.Accounts",
-					"PnP.PowerShell"
+					"PSReadLine"
+//					 "microsoft.graph",
+//					"Az.Accounts",
+//					"PnP.PowerShell"
 				]
 			},
 			"ghcr.io/devcontainers/features/azure-cli:1": {
