@@ -10,9 +10,11 @@ https://code.visualstudio.com/docs/devcontainers/tutorial
 
 ## Instructions 
 - clone this repo
-- let the devcontainer build itself
+- let the devcontainer build itself, this will take time
+- make sure the azurite services are running
+- press f5 to start the azure function.
 - Make sure "FUNCTIONS_WORKER_RUNTIME_VERSION": "7.4" is specified in local.settigs.json
-- There is an example function psinfo that shows a lot of info. This also dumps environment variables at runtime. Make sure that it is protected on azure, by not usig anonymous.  
+- There is an example function psinfo that shows a lot of info. This also dumps environment variables at runtime. Make sure that it is protected on azure, by not using anonymous. Or delete it.
 This function shows the used version.
 
 
